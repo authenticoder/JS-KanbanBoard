@@ -38,7 +38,9 @@ const create_item = () => {
     error.innerHTML = ''
 
     if (input.value !== '') {
-      
+      order += 1
+      item.innerHTML = input.value
+      adding = false
     }
   })
 };
